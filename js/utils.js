@@ -38,7 +38,7 @@
     errorText.textContent = message;
     errorButton.textContent = 'OK';
     errorRect.style = 'width: 200px; height: 100px; background-color: white; color: black; border: 3px solid red; text-align: center';
-    errorRect.style.fontSize: '30px';
+    errorRect.style.fontSize = '30px';
     document.body.insertAdjacentElement('afterbegin', errorRect);
   };
 
